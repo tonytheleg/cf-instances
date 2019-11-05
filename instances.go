@@ -18,7 +18,7 @@ var BToMb int64 = 1048576
 type Instance struct {
     State string `json:"state"`
     Stats struct {
-    	Name        string `json:"name"`
+	Name        string `json:"name"`
         Host        string `json:"host"`
         Port        int    `json:"port"`
         MemoryQuota int64  `json:"mem_quota"`
