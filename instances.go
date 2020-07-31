@@ -106,7 +106,7 @@ func (c *CfInstances) GetMetadata() plugin.PluginMetadata {
         Name: "instances",
         Version: plugin.VersionType{
             Major: 0,
-            Minor: 4,
+            Minor: 5,
             Build: 0,
         },
         Commands: []plugin.Command{
